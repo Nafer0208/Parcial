@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    border: 1px solid black;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(117, 83, 19);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 150%;
+    color: rgb(223, 155, 110);
+    position:sticky;
+    
+}
+
+nav a:hover{
+    font-size: 200%;
+    width: auto ;
+}
+
+nav a:visited{
+    color: rgb(223, 155, 110);
+}
+
+.link{
+    display: inline-block;
+    height: 50%;
+    padding-top: 25px;
+    margin-left: 8%;
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+}
+
+table{
+    width: 40%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.black{
+    background-color: grey;
+}
+
+.lBlue{
+    background-color: lightblue;
+}
+
+.idAlumnos table td{
+    padding-left: 5%;
+}

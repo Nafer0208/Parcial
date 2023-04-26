@@ -76,13 +76,18 @@ main #logoItca{
 }
 
 /*PARTE DE CARLOS*/
-
+/*Solucion al error*/
+#formCenter{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
 .form{
     font-size: 15pt;
     border: solid #ff9a3c;
     border-radius: 20px;
-    width: 75%;
-    height: 80%;
+    width: 60%;
+    height: 75%;
     padding: 17px;
     position: absolute;
     /*Este era el error*/
@@ -91,12 +96,6 @@ main #logoItca{
     /*transform: translate(-50%,-50%);*/
     box-shadow: 10px 10px 5px black;
     }
-/*Solucion al error*/
-#formCenter{
-    width: 75%;
-    margin: 0 auto;
-    margin-top: 5px;
-}
 
 #clearfix{
     clear: both;

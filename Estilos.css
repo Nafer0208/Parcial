@@ -1,70 +1,46 @@
-*{
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
+.form{
+    font-size: 15pt;
+    border: solid #ff9a3c;
+    border-radius: 20px;
+    width: 800px;
+    height: 590px;
+    padding: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 10px 5px black;
+    }
 
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #ffc6a1;
-}
-
-nav{
-    border: 1px solid black;
-    width: 100%;
-    height: 80px;
-    background-color: rgb(117, 83, 19);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.link a{
-    text-decoration: none;
-    font-size: 150%;
-    color: rgb(223, 155, 110);
-    position:sticky;
+    h3{
+        text-align: center;
+        font-size: 20pt;
+    }
     
-}
+    body,html{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background: linear-gradient(to bottom right ,#a76c35, #6d2103); 
+        color: #ff9a3c;
+    }
+        
+    .input{
+        background-color: #facd51;
+        border-radius: 8px;
+        border: 1px solid rgb(190, 54, 30);
+        padding-left: 1%;
+    }
+    
+    .input:focus{
+        outline: none;
+    }
 
-nav a:hover{
-    font-size: 200%;
-    width: auto ;
-}
-
-nav a:visited{
-    color: rgb(223, 155, 110);
-}
-
-.link{
-    display: inline-block;
-    height: 50%;
-    padding-top: 25px;
-    margin-left: 8%;
-    text-align: center;
-}
-
-main h2{
-    text-align: center;
-    font-size: 45px;
-    color: orange;
-}
-
-table{
-    width: 60%;
-    border-collapse: collapse;
-    margin: 0 auto;
-    font-size: 25px;
-    color: white;
-}
-
-.color1{
-    background-color: rgb(122, 85, 17);
-}
-
-.color2{
-    background-color: orange;
-}
-
-.idAlumnos table td{
-    padding-left: 5%;
-}
+    .boton{
+        height: 30px;
+        color: #000000;
+        border-radius: 10px;
+    }

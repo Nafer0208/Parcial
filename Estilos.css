@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ffc6a1;
 }
 
 nav{
@@ -44,20 +45,24 @@ nav a:visited{
 
 main h2{
     text-align: center;
+    font-size: 45px;
+    color: orange;
 }
 
 table{
-    width: 40%;
+    width: 60%;
     border-collapse: collapse;
     margin: 0 auto;
+    font-size: 25px;
+    color: white;
 }
 
-.black{
-    background-color: grey;
+.color1{
+    background-color: rgb(122, 85, 17);
 }
 
-.lBlue{
-    background-color: lightblue;
+.color2{
+    background-color: orange;
 }
 
 .idAlumnos table td{

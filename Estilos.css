@@ -86,14 +86,14 @@ main #logoItca{
 #formCenter{
     width: 75%;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .form{
     font-size: 15pt;
     border: solid #146C94;
     background-color: #146C94;
     border-radius: 20px;
-    width: 75%;
+    width: 80%;
     height: 75%;
     padding: 17px;
     margin: 0 auto;

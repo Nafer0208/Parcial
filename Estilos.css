@@ -83,6 +83,11 @@ main #logoItca{
 }
 
 /*PARTE DE CARLOS*/
+#formCenter{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
 .form{
     font-size: 15pt;
     border: solid #146C94;

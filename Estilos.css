@@ -220,4 +220,23 @@ h3{
      .card:hover .back {
          transform: perspective(600px) rotateY(360deg);
      }
-     
+     /*Parte de Onan Y Emerson*/
+/*Departamentos*/
+        figure {
+  position: relative;
+}
+figure:before,
+figure:after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+img {
+  width: 20%;
+  height: 25%;
+  margin: 0;
+  padding: 0;
+}

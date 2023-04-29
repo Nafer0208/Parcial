@@ -55,10 +55,10 @@ table{
     margin: 0 auto;
     margin-top: 25px;
     font-size: 25px; 
-    border: 1px solid #146C94;  
+    border: 1px solid #F6F1F1;  
 }
 table th{
-    border: 1px solid #146C94;
+    border: 1px solid #F6F1F1;
 }
 .A{
     border-top-left-radius: 5px;

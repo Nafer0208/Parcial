@@ -132,7 +132,7 @@ h3{
     /*Parte de Onan y Emerson*/
 
     /*Parte de Brandon*/
-    #MainCards{
+    .MainCards{
         display: flex;
         flex-wrap: wrap;
         align-items: center;

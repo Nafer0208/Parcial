@@ -83,6 +83,7 @@ main #logoItca{
 }
 
 /*PARTE DE CARLOS*/
+/*FORMULARIO*/
 #formCenter{
     width: 77%;
     margin: 0 auto;
@@ -129,9 +130,9 @@ h3{
     .boton:active{
         background-color: #127996;
     }
-    /*Parte de Onan y Emerson*/
-
+    
     /*Parte de Brandon*/
+/*LENGUAJES DE PROGRAMACION*/
     .MainCards{
         display: flex;
         flex-wrap: wrap;
